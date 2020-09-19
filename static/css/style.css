@@ -50,14 +50,3 @@ marquee{
 .Decision table.inner{
   border: 100px;
   }
-.Decision  input[type = "submit"],input[type = "reset"]
-{
-
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}

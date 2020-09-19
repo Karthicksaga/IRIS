@@ -1,0 +1,63 @@
+
+
+body
+{
+	background-image:url("iris.jpg");
+}
+
+ .Decision h1{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color: blue;
+  text-align: center; 
+  #text-decoration: underline
+}
+
+  .Decision{ 
+  padding: 10px;
+width:1000px;
+height:500px;
+background:white;
+color:;
+top:40%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-border:solid-box;	
+  }
+ 
+ 
+marquee{
+      font-size: 30px;
+      font-weight:bold;
+      color: red;
+      font-family: sans-serif;
+      }
+
+.Decision table{
+  font-family: sans-serif; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  
+  background-color: #7b68ee; 
+  border-collapse: collapse; 
+  border: 3px solid navy
+}
+.Decision table.inner{
+  border: 100px;
+  }
+.Decision  input[type = "submit"],input[type = "reset"]
+{
+
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

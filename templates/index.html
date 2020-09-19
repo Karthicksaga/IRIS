@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<title>Iris Flower Classification</title>
+
+</head>
+<body>
+<div class="Decision">
+<h1 style align="center"> Iris Flower Classification</h1>
+<form action="http://127.0.0.1:5000/predict" method="post" >
+<table align ="center" cellpadding="30">
+<tr>
+<td>
+ SepalLength
+</td>
+<td>
+<input type="text" name="sepallength" value="" maxlength="30" required>
+
+</td>
+</tr>
+<tr>
+<td>
+ SepalWidth
+</td>
+<td><input type="text" name="sepalwidth" value="" maxlength="40" required>
+
+</td>
+</tr>
+<tr>
+<td>
+ PetalLength
+</td>
+<td><input type="text" name="petallength" value="" maxlength="40" required>
+</td>
+</tr>
+<tr>
+<td>
+ PetalWidth
+</td>
+<td>
+<input type="text" name="petalwidth" value="" maxlength="100" required>
+
+</td>
+
+</tr>
+
+<center>
+<tr>
+<td colspan="2" align="center">
+<input type="submit"  name="Predict" value="Predict">
+<input type="reset" values="Reset">
+</td>
+</tr>
+</center>
+</table>
+<center><h1>{{prediction_text}}</h1></center>
+</form>
+</div>
+</body>
+</html>
+ 
